@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeHer</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h2>SafeHer 🚺</h2>
+
+        <ul>
+            
+           <li><a href="#home">Home</a></li>
+           <li><a href="#dashboard">Dashboard</a></li>
+           <li><a href="#report">Report</a></li>
+           <li><a href="#emergency">Emergency</a></li>
+
+        </ul>
+    </nav>
+    <section class="hero" id="home">
+
+        <h1>Women Safety & Awareness Platform</h1>
+
+        <p>
+            Helping create safer spaces through data and awareness.
+        </p>
+
+        <button onclick="showMessage()">
+    Explore Dashboard
+</button>
+
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Crime Analysis</h3>
+            <p>View crime statistics and trends.</p>
+        </div>
+
+        <div class="card">
+            <h3>Unsafe Areas</h3>
+            <p>Identify high risk locations.</p>
+        </div>
+
+        <div class="card">
+            <h3>Emergency Help</h3>
+            <p>Access important helpline numbers.</p>
+        </div>
+
+    </section>
+    <section class="stats" id="dashboard">
+
+    <div class="stat-box">
+        <h2>12,540</h2>
+        <p>Total Cases Reported</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>28</h2>
+        <p>Unsafe Areas Identified</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>92%</h2>
+        <p>Emergency Response Rate</p>
+    </div>
+
+</section>
+    
+
+</section>
+    <section class="help-section" id="emergency">
+
+    <h1>Emergency Helplines ☎️</h1>
+
+    <div class="help-cards">
+
+        <div class="help-box">
+            <h2>Women Helpline</h2>
+            <p>1091</p>
+        </div>
+
+        <div class="help-box">
+            <h2>Police</h2>
+            <p>100</p>
+        </div>
+
+        <div class="help-box">
+            <h2>Ambulance</h2>
+            <p>108</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="report-section" id="report"></section>
+
+
+<center>
+    <h1>Report Unsafe Area 🚨</h1>
+</center>
+
+    <form>
+
+        <input type="text" placeholder="Enter Location">
+
+        <input type="text" placeholder="Enter Issue">
+
+        <textarea placeholder="Describe the issue"></textarea>
+
+        <button type="submit">Submit Report</button>
+
+    </form>
+
+</section>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</section>
+</body>
+</html>

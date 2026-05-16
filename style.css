@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background-color: #fff0f5;
+}
+
+/* Navbar */
+
+nav{
+    background-color: #cc0066;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav li{
+    cursor: pointer;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1{
+    font-size: 50px;
+    color: #cc0066;
+}
+
+.hero p{
+    font-size: 22px;
+}
+
+button{
+    button:hover{
+    background-color: #99004d;
+    transform: scale(1.05);
+}
+    background-color: #cc0066;
+    color: white;
+    border: none;
+
+    padding: 12px 20px;
+    font-size: 18px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Cards */
+
+.cards{
+    .card:hover{
+    transform: translateY(-10px);
+}
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.card{
+    background-color: white;
+
+    width: 250px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 10px lightgray;
+
+    text-align: center;
+}
+/* Stats Section */
+
+.stats{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    padding: 50px;
+}
+
+.stat-box{
+    background-color: #cc0066;
+    color: white;
+
+    width: 250px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.stat-box:hover{
+    transform: scale(1.05);
+}
+/* Emergency Section */
+
+.help-section{
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+.help-section h1{
+    color: #cc0066;
+    margin-bottom: 40px;
+}
+
+.help-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.help-box{
+    background-color: white;
+
+    width: 220px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 10px lightgray;
+
+    transition: 0.3s;
+}
+
+.help-box:hover{
+    transform: translateY(-10px);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+/* Report Section */
+
+.report-section{
+    text-align:center;
+
+    padding: 60px 20px;
+}
+
+.report-section h1{
+    color: #cc0066;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+
+    margin: auto;
+
+    gap: 15px;
+}
+
+input,
+textarea{
+    padding: 12px;
+
+    border-radius: 8px;
+
+    border: 1px solid lightgray;
+}
+.report-section h1{
+    text-align: center;
+}
